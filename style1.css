@@ -1,0 +1,68 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+ :root{
+    --footer1:// <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 400 to 700
+    
+    .edu-au-vic-wa-nt-hand-<uniquifier> {
+      font-family: "Edu AU VIC WA NT Hand", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    };
+
+
+ body{ background-color: white;
+
+}
+
+header{ 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:15px ;
+
+}
+header>h1{ 
+    text-transform: uppercase;
+}
+
+header>p
+{ padding-bottom: 25px;
+
+}
+
+
+section{ background-color: rgba(128, 128, 128, 0);}
+
+section> p{
+width: 400px;
+background-color: rgba(202, 199, 199, 0.719);
+font-display: block;
+margin: auto;
+font-size: 28px;
+}
+
+
+}
+
+section.normal{ 
+    background-image: url('Amor imagem/OIP.jpg');
+   
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+footer{ background-image: url('Amor imagem/tipos-de-flores-1-1024x576.jpg');
+    background-color: rgb(53, 52, 52);
+    color: white;
+padding: 25px;}
+footer>a{ color: white;
+text-align: center;
+font-size: 2em;}
+
+footer>ul>li>a:hover{ background-color: green ;
+text-align-last: center;
+}
